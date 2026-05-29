@@ -76,10 +76,10 @@ export function Contact() {
                 <MessageCircle className="h-5 w-5" />
               </a>
               <a href="#" className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20">
-                <Instagram className="h-5 w-5" />
+                <IgIcon className="h-5 w-5" />
               </a>
               <a href="#" className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20">
-                <Facebook className="h-5 w-5" />
+                <FbIcon className="h-5 w-5" />
               </a>
             </div>
           </div>
