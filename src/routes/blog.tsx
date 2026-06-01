@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Calendar, Facebook, Linkedin, Search, Tag, Twitter, Youtube } from "lucide-react";
+import { ArrowRight, Calendar, Play, Search, Share2, Tag } from "lucide-react";
 import "@/i18n";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
