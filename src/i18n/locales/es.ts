@@ -4,6 +4,8 @@ export const es = {
     invest: "Invertir",
     services: "Servicios",
     properties: "Propiedades",
+    aboutUs: "Quiénes Somos",
+    blog: "Blog",
     faq: "Preguntas",
     contact: "Contacto",
     cta: "Hablar con un especialista",
