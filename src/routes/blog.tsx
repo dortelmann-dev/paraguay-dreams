@@ -396,11 +396,10 @@ function BlogPage() {
                       <button className="inline-flex items-center gap-1.5 text-sm font-semibold text-[color:var(--brand-red)] transition hover:gap-2.5">
                         {t.readMore} <ArrowRight className="h-3.5 w-3.5" />
                       </button>
-                      <div className="flex items-center gap-2 text-muted-foreground">
-                        <Facebook className="h-3.5 w-3.5 cursor-pointer hover:text-[color:var(--brand-blue)]" />
-                        <Twitter className="h-3.5 w-3.5 cursor-pointer hover:text-[color:var(--brand-blue)]" />
-                        <Linkedin className="h-3.5 w-3.5 cursor-pointer hover:text-[color:var(--brand-blue)]" />
-                      </div>
+                      <button className="inline-flex items-center gap-1.5 text-xs text-muted-foreground transition hover:text-[color:var(--brand-blue)]" aria-label={t.share}>
+                        <Share2 className="h-3.5 w-3.5" />
+                        {t.share}
+                      </button>
                     </div>
                   </div>
                 </motion.article>
@@ -414,7 +413,7 @@ function BlogPage() {
       <section className="py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <div className="flex items-center gap-3">
-            <Youtube className="h-7 w-7 text-[color:var(--brand-red)]" />
+            <Play className="h-7 w-7 text-[color:var(--brand-red)]" />
             <h2 className="font-display text-2xl text-foreground sm:text-3xl">{t.videos}</h2>
           </div>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
