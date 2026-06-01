@@ -12,7 +12,7 @@ import post1 from "@/assets/blog-post-1.jpg";
 import post2 from "@/assets/blog-post-2.jpg";
 import post3 from "@/assets/blog-post-3.jpg";
 import propLuxury from "@/assets/property-luxury.jpg";
-import propUrban from "@/assets/encarnacion-night.jpg";
+import propUrban from "@/assets/property-urban.jpg";
 import propChacra from "@/assets/property-chacra.jpg";
 import beach from "@/assets/beach-sanjose.jpg";
 import night from "@/assets/encarnacion-night.jpg";
