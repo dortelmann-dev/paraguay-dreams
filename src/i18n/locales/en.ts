@@ -4,6 +4,8 @@ export const en = {
     invest: "Invest",
     services: "Services",
     properties: "Properties",
+    aboutUs: "About Us",
+    blog: "Blog",
     faq: "FAQ",
     contact: "Contact",
     cta: "Talk to a specialist",
