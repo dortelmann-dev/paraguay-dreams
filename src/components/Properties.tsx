@@ -60,11 +60,11 @@ export function Properties() {
                 </div>
                 <div className="mt-4 font-display text-2xl text-[color:var(--brand-blue)]">{p.p}</div>
                 <div className="mt-5 flex flex-wrap gap-2">
-                  <a href="#contact"
+                  <a href="https://wa.me/5950983886951?"
                     className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-full bg-[color:var(--brand-blue)] px-4 py-2.5 text-sm font-semibold text-white transition hover:opacity-90">
                     {t("props.info")} <ArrowRight className="h-3.5 w-3.5" />
                   </a>
-                  <a href="https://wa.me/595000000000" target="_blank" rel="noopener"
+                  <a href="https://wa.me/5950983886951?" target="_blank" rel="noopener"
                     className="inline-flex items-center justify-center gap-1.5 rounded-full border border-[color:var(--brand-orange)] px-4 py-2.5 text-sm font-semibold text-[color:var(--brand-orange)] transition hover:bg-[color:var(--brand-orange)] hover:text-white">
                     <MessageCircle className="h-4 w-4" /> {t("props.whatsapp")}
                   </a>
