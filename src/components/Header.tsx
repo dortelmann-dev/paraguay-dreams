@@ -76,7 +76,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <LanguageSwitcher variant={solid ? "light" : "dark"} />
           <a
-            href={isHome ? "#contact" : "/#contact"}
+            href="https://wa.me/5950983886951?"
             className="hidden rounded-full bg-gradient-warm px-4 py-2 text-sm font-semibold text-white shadow-warm transition hover:opacity-95 md:inline-flex"
           >
             {t("nav.cta")}
@@ -117,7 +117,7 @@ export function Header() {
               </Link>
             ))}
             <a
-              href={isHome ? "#contact" : "/#contact"}
+              href="https://wa.me/5950983886951?"
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-gradient-warm px-4 py-3 text-center text-sm font-semibold text-white"
             >
